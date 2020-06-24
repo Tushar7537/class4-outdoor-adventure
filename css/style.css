@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+img{
+    object-fit: cover;
+    max-width: 100%;
+    display: block;
+}
+.flex{
+      display: flex;
+   
+}
+
+header{
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #ff55d1b0;
+    background-blend-mode: multiply;
+    padding: 10px;
+}
+.logo{
+    flex-basis: 20%;
+    color: white;
+    max-width: 20%;
+}
+.logo h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.logo span {
+    font-weight: 100;
+    display: block;
+    font-size: 18px;
+}
+
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+nav ul li{
+}
+nav ul li a{
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid #ffffff00;
+    border-radius: 30px;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    border: 1px solid white;
+}
+
+nav ul li:last-child a{
+    border: 1px solid white; 
+}
+
+.about-section {
+    color: white;
+    flex-basis: 100%;
+    max-width: 100%;
+    padding: 150px 0px;
+    text-align: center;
+    display: block;
+}
+.about-section h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.about-section h2{
+       font-style: italic;
+}
+
+.about-section span{
+    background: #fb2056;
+    display: block;
+    width: 84px;
+    height: 5px;
+    margin: 15px auto 0px;
+}
+
+.Learnmore{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background: #50363ccf;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.img-section{
+    padding: 10px 20px;
+    background: aliceblue;
+}
+.img-section h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: darkred;
+}
+.img-section span{
+    background-color: #fb2056;
+    width: 143px;
+    display: block;
+    height: 5px;
+    margin: 0 auto 20px;
+}
+.box{}
+.box img{}
+
+
+.explore-section{
+    background-image: url(../images/landscape-5313115_1280.jpg);
+    padding: 200px 0;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #231105ba;
+    background-blend-mode: darken;
+    height: 250px;
+}
+.col-1-2{
+    flex-basis: 50%;
+    max-width: 50%;
+    color: white;
+    font-size: 29px;
+}
+.col-1-2 h1{
+    font-size: 33px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.col-1-2 p{
+    font-size: 22px;
+    text-align: left;
+}
+.col-1-2 span{
+    display: block;
+    /* margin: 0 auto 0px; */
+    padding: 2px;
+    width: 22%;
+    background-color: red;
+}
+.justify-content{
+    justify-content: flex-end;
+}
+
+.tour-section{
+    padding: 100px 0px;
+    background: aliceblue;
+}
+
+.col-1-3{
+    flex-basis: 33.33%;
+    max-width:33.33%;
+    padding: 10px;
+}
+
+.col-1-3 h1{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.col-1-3 span{
+    background: #fb2056;
+    display: block;
+    width: 84px;
+    height: 5px;
+}
+
+.col-1-3 p{
+    
+}
+.col-1-3 img{
+    margin: 20px;
+}
+
+.small{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.large{
+    height: 400px;
+    width: 100%;
+}
+.slider1 {
+    padding: 10px;
+}
+.slider2 {
+    padding: 10px;
+}
